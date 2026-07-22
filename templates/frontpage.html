@@ -19,13 +19,13 @@
   <div class="hero-section centered">
     <div class="hero-center">
       <img
-        src="{{ url_for('static', filename='images/logo_without_text.svg') }}"
-        alt="Catch-all Logo"
+        src="{{ url_for('static', filename='images/sand-castle-beach.svg') }}"
+        alt="Sand castle"
         class="hero-logo"
       />
-      <h1 class="ui header font-weight-semibold mb-0">Catch-all</h1>
+      <h1 class="ui header font-weight-semibold mb-0">CESNET Invenio Sandbox</h1>
       <h3 class="ui header font-weight-normal mt-0">
-        {{ _('Multi-discipline data repository') }}
+        Here you can play with all of the features it has to offer!
       </h3>
 
       <form
@@ -67,22 +67,31 @@
   <div class="cards-section flex justify-center align-items-center">
     <div class="ui cards frontpage-cards centered">
 
-      {# Card 1: Upload Dataset #}
+      {# Card 1: Repository System #}
       {{ render_card(
-        header=_('Upload dataset'),
-        description=_('Upload your data to our catch-all repository'),
-        icon='upload',
-        url=url_for('datasets_ui.deposit_create') if can_view_deposit_page() else 'https://docs.nrp.eosc.cz/en/docs/end_users/catch-all-data-repository/catch-all-getting-started#registering-as-a-depositor-for-the-repository',
-        button_text=_('Upload dataset') if can_view_deposit_page() else _('Get access')
+        header=_('Repository system'),
+        description=_('CESNET Invenio is a research data management repository platform based on InvenioRDM.'),
+        icon='book',
+        url=_('https://nrp-cz.github.io/docs/'),
+        button_text=_('Learn more')
       ) }}
 
-      {# Card 2: How it works #}
+      {# Card 2: Upload Dataset #}
       {{ render_card(
-        header=_('How does a repository work?'),
-        description=_('Would you like to know more about where your data is being stored?'),
-        icon='question circle',
-        url=config.ABOUT_REPOSITORY_DOCS_URL,
-        button_text=_('About repository')
+        header=_('Upload dataset to  a real repository'),
+        description=_('Upload your data to our catch-all repository.'),
+        icon='upload',
+        url=_('https://datarepo.eosc.cz/'),
+        button_text=_('Upload dataset')
+      ) }}
+
+      {# Card 3: Build a new repository in NRP #}
+      {{ render_card(
+        header=_('Build a new repository in NRP'),
+        description=_('Request a consultation with NRP repository system specialists.'),
+        icon='wrench',
+        url=_('https://www.eosc.cz/en/services/data-storage/repositories-in-nrp'),
+        button_text=_('Get started')
       ) }}
 
     </div>

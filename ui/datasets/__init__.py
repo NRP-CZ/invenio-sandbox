@@ -65,16 +65,10 @@ def init_menu(app):
             visible_when=lambda: not can_view_deposit_page(),
         )
         current_menu.submenu("main.about_repository").register(
-            external_url=app.config.get("ABOUT_REPOSITORY_DOCS_URL"),
-            text=_("About repository"),
+            external_url=app.config.get("ABOUT_REPOSITORY_DOCS_URL"), # TODO()
+            text=_("About sandbox"),
             order=0,
         )
-        current_menu.submenu("main.documentation").register(
-            external_url="https://docs.nrp.eosc.cz/en/docs/end_users/catch-all-data-repository/catch-all-getting-started",
-            text=_("Documentation"),
-            order=1,
-        )
-
 
 def finalize_app(app):
     """Finalize app"""

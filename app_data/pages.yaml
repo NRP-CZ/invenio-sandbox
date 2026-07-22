@@ -1,0 +1,4 @@
+- url: /about
+  title: About CESNET Invenio Sandbox
+  description: Learn more about the demonstration instance of the CESNET Invenio data repository system
+  template: about.html

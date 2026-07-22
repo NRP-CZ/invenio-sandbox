@@ -1,7 +1,7 @@
 [project]
-name = "datarepo"
+name = "cesnet-invenio-sandbox"
 version = "1.0.0"
-description = "Catch-All repostitory for Czech scientific data"
+description = "CESNET Invenio sandbox data repository"
 packages = []
 authors = []
 dependencies = [

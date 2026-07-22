@@ -1,4 +1,9 @@
-# CESNET Data Repository
+# CESNET Invenio Sandbox
+
+- Learn more about CESNET Invenio at [https://nrp-cz.github.io/docs/](https://nrp-cz.github.io/docs/)
+- Instructions on running a local instance: https://nrp-cz.github.io/docs/installation/run_instance
+- Request your own repository instance in NRP: https://www.eosc.cz/en/services/data-storage/repositories-in-nrp
+- Preserve your data in a real repository: https://datarepo.eosc.cz/
 
 ## Repository layout
 
