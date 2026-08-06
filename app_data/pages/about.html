@@ -1,30 +1,34 @@
 <h1 id="cesnet-invenio-sandbox">CESNET Invenio Sandbox</h1>
-<p>The CESNET Invenio Sandbox is a fork of the <a href="https://datarepo.eosc.cz/">Catch-all Data Repository</a> maintained by the NRP Invenio Repository System Specialists. </p>
-<p>CESNET Invenio itself is an extention of <a href="https://inveniordm.docs.cern.ch/">InvenioRDM</a>, a turn-key research data management (RDM) repository platform based on <a href="https://inveniosoftware.org/products/framework/">Invenio Framework</a> and <a href="https://www.zenodo.org/">Zenodo</a>. CESNET Invenio is one of the core repository systems of the Czech <a href="https://www.eosc.cz/en/projects/national-repository-platform-for-research-data-nrp/national-repository-platform">National Repository Platform (NRP)</a>. To learn more about the conditions for buildng a new instance of the CESNET Invenio system in NRP, see <a href="https://www.eosc.cz/en/services/data-storage/repositories-in-nrp">Repositories in NRP</a>. </p>
+<p>The <strong>CESNET Invenio Sandbox</strong> is an instance of the <strong>CESNET Invenio</strong> repository system. The sandbox is maintained by the NRP Invenio Repository System Specialists.</p>
+<p>CESNET Invenio itself is an extension of <a href="https://inveniordm.docs.cern.ch/">InvenioRDM</a>, a turn-key research data management (RDM) repository platform based on <a href="https://inveniosoftware.org/products/framework/">Invenio Framework</a> and <a href="https://www.zenodo.org/">Zenodo</a>. It is one of the core repository systems of the Czech <a href="https://www.eosc.cz/en/projects/national-repository-platform-for-research-data-nrp/national-repository-platform">National Repository Platform (NRP)</a>. To learn more about the conditions for building a new instance of the CESNET Invenio system in the NRP, see <a href="https://www.eosc.cz/en/services/data-storage/repositories-in-nrp">Repositories in NRP</a>.</p>
 
 <h2 id="aim-of-the-sandbox">Aim of the sandbox</h2>
+<p>The sandbox is a safe environment where anyone can explore the standard features of CESNET Invenio. Use it to:</p>
 <ul>
-<li>Let anyone try standard features of CESNET Invenio in a safe environment </li>
-<li>Trying out the data deposition process and metadata description in the Invenio implementation of the Czech Core Metadata Model (CCMM)</li>
-<li>Trying out the API and testing deposition scripts and data pipelines</li>
-<li>Learning about data repositories in courses and workshops</li>
+<li>Walk through the data deposition process and enter metadata using the CESNET Invenio implementation of the Czech Core Metadata Model (CCMM)</li>
+<li>Explore the API and test deposition scripts and data pipelines</li>
+<li>Teach and learn about data repositories in courses and workshops</li>
 </ul>
 
-<h2 id="how-does-it-differ-from-the-catch-all-data-repository-">How does it differ from the Catch-all Data Repository?</h2>
+<h2 id="basic-usage-rules">Basic usage rules</h2>
 <ul>
-<li>Anyone can register via e-INFRA and their registration is automatically approved with the ability to deposit data (in the Catch-all repository users need to request permission to deposit data and wait for aproval)</li>
-<li>Any user can create a community (In the Catch-all repository only the repository administrator can create new communities)</li>
-<li>The repository has two demo communities where users can try out standard deposition workflows</li>
-<li>The repository assigns only test DOIs which are not resolvable</li>
-<li>Data is periodically wiped</li>
+<li>Anyone with a valid e-INFRA.cz identity can log in and is automatically granted permission to deposit data as an individual submitter.</li>
+<li>Any user can create a community.</li>
+<li>The repository has two demo communities where users can try out standard deposition workflows.</li>
+<li>The repository assigns only test DOIs, which are not resolvable.</li>
+<li>All deposited data and metadata are deleted periodically.</li>
 </ul>
+
+<h2 id="technical-note">Technical note</h2>
+<p>The CESNET Invenio Sandbox codebase is a fork of the Catch-all repository codebase and shares the same architecture and features. The main differences are the automatic permission to deposit data and to create communities. Otherwise, the user documentation of the Catch-all data repository (see below) applies here as well.</p>
 
 <h2 id="useful-links">Useful links</h2>
 <ul>
-<li><a href="https://github.com/NRP-CZ/invenio-sandbox">Codebase of the repository on GitHub</a></li>
+<li><a href="https://github.com/NRP-CZ/invenio-sandbox">Repository codebase on GitHub</a></li>
 <li><a href="https://docs.nrp.eosc.cz/en/docs/end_users/catch-all-data-repository/catch-all-repository-introduction">User documentation of the Catch-all data repository</a></li>
 <li><a href="https://nrp-cz.github.io/docs/">CESNET Invenio documentation</a></li>
 <li><a href="https://inveniordm.web.cern.ch/">InvenioRDM sandbox</a></li>
 <li><a href="https://inveniordm.docs.cern.ch/">InvenioRDM documentation</a></li>
 <li><a href="https://www.eosc.cz/en/services/data-storage/repositories-in-nrp">Repositories in NRP</a></li>
+<li><a href="https://ccmm.cz">Czech Core Metadata Model (CCMM)</a></li>
 </ul>
