@@ -1,9 +1,9 @@
 <h1 id="sandbox-cesnet-invenio">Sandbox CESNET Invenio</h1>
 <p><strong>Sandbox CESNET Invenio</strong> je instancí repozitářového systému <strong>CESNET Invenio</strong>. Sandbox spravují metodici repozitářových systémů NRP.</p>
-<p>Samotný systém <a href="https://nrp-cz.github.io/docs/">CESNET Invenio</a> je rozšířením <a href="https://inveniordm.docs.cern.ch/">InvenioRDM</a>, platformy pro správu výzkumných dat založené na <a href="https://inveniosoftware.org/products/framework/">Invenio Frameworku</a> a <a href="https://www.zenodo.org/">Zenodu</a>. Je jedním z hlavních repozitářových systémů <a href="https://www.eosc.cz/projekty/narodni-repozitarova-platforma-pro-vyzkumna-data-nrp/nrp">Národní repozitární platformy (NRP)</a>. Více informací o podmínkách pro vytvoření nové instance systému CESNET Invenio v NRP najdete na stránce služby <a href="https://www.eosc.cz/sluzby/ukladani/repozitare-v-nrp">Repozitáře v NRP</a>.</p>
+<p>Samotný systém <a href="https://nrp-cz.github.io/docs/">CESNET Invenio</a> je rozšířením <a href="https://inveniordm.docs.cern.ch/">InvenioRDM</a>, platformy pro správu výzkumných dat založené na <a href="https://inveniosoftware.org/products/framework/">Invenio Frameworku</a> a <a href="https://www.zenodo.org/">Zenodu</a>. Je jedním z hlavních repozitářových systémů <a href="https://www.eosc.cz/projekty/narodni-repozitarova-platforma-pro-vyzkumna-data-nrp/nrp">Národní repozitářové platformy (NRP)</a>. Více informací o zřízení repozitáře s využitím systému CESNET Invenio v NRP najdete na stránce služby <a href="https://www.eosc.cz/sluzby/ukladani/repozitare-v-nrp">Repozitáře v NRP</a>.</p>
 
 <h2 id="c-l-sandboxu">Cíl sandboxu</h2>
-<p>Sandbox je bezpečné prostředí, kde si kdokoli může vyzkoušet standardní funkce CESNET Invenio:</p>
+<p>Sandbox je bezpečné prostředí, ve kterém si kdokoli může vyzkoušet standardní funkce CESNET Invenio:</p>
 <ul>
 <li>projít si proces ukládání dat a vyplnění metadat v implementaci Czech Core Metadata Modelu (CCMM),</li>
 <li>vyzkoušet si API a otestovat ukládací skripty a pipelines,</li>
