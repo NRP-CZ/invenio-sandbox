@@ -5,8 +5,8 @@ python_package_manager = uv
 
 [cookiecutter]
 project_name = CESNET Invenio Sandbox
-project_shortname = invenio-sandbox
-package_name = invenio-sandbox
+project_shortname = cesnet-invenio-sandbox
+package_name = cesnet-invenio-sandbox
 project_site = invenio-sandbox.eosc.cz
 author_name = 
 author_email = 
