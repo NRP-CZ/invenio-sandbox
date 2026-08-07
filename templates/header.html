@@ -7,13 +7,13 @@
   {%- if current_i18n.language == 'cs' %}
     <a class="logo-link" href="{{ invenio_url_for('invenio_app_rdm.index') }}">
       <img class="ui image rdm-logo"
-            src="{{ url_for('static', filename='images/logo.svg') }}"
+            src="{{ url_for('static', filename='images/sandbox_logo_with_name.svg') }}"
             alt="{{ _(config.THEME_SITENAME) }} {{ _('home') }}"/>
     </a>
   {%- else %}
     <a class="logo-link" href="{{ invenio_url_for('invenio_app_rdm.index') }}">
       <img class="ui image rdm-logo"
-            src="{{ url_for('static', filename='images/logo_en.svg') }}"
+            src="{{ url_for('static', filename='images/sandbox_logo_with_name.svg') }}"
             alt="{{ _(config.THEME_SITENAME) }} {{ _('home') }}"/>
     </a>
   {%- endif %}

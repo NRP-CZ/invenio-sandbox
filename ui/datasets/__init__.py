@@ -65,7 +65,8 @@ def init_menu(app):
             visible_when=lambda: not can_view_deposit_page(),
         )
         current_menu.submenu("main.about_repository").register(
-            external_url=app.config.get("ABOUT_REPOSITORY_DOCS_URL"), # TODO()
+            # external_url=app.config.get("ABOUT_REPOSITORY_DOCS_URL"), # TODO()
+            external_url="/about",
             text=_("About sandbox"),
             order=0,
         )

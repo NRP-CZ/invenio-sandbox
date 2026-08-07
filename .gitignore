@@ -387,3 +387,5 @@ pnpm-lock.yaml
 *.mo
 
 .zed
+
+NOTES.md
