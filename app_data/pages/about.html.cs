@@ -5,10 +5,9 @@
 
 <h2>Cíl sandboxu</h2>
 <ul>
-<li>Umožnit komukoli si vyzkoušet standardní funkce CESNET Invenio v bezpečném prostředí</li>
-<li>Vyzkoušení procesu ukládání dat a popisu metadat v Invenio implementaci Czech Core Metadata Model (CCMM)</li>
-<li>Vyzkoušení API a testování ukládacích skriptů a datových kanálů</li>
-<li>Seznámení se s datovými repozitáři v kurzech a workshopech</li>
+<li>projít si proces ukládání dat a vyplnění metadat v implementaci Czech Core Metadata Modelu (CCMM),</li>
+<li>vyzkoušet si API a otestovat ukládací skripty a pipelines,</li>
+<li>používat Sandbox v kurzech a na workshopech.</li>
 </ul>
 
 <h2>Základní pravidla užívání</h2>
@@ -21,7 +20,7 @@
 </ul>
 
 <h2>Technická poznámka</h2>
-<p>Kód CESNET Invenio sandboxu vychází z kódu Catch-all datového repozitáře a sdílí stejnou architekturu a funkce. Hlavní rozdíly spočívají v automatickém povolení k ukládání dat a vytváření komunit. Jinak je uživatelská dokumentace k Catch-alldatovému repozitáři (viz níže) platná i zde.</p>
+<p>Kód CESNET Invenio sandboxu vychází z kódu Catch-all datového repozitáře a sdílí stejnou architekturu a funkce. Hlavní rozdíly spočívají v automatickém povolení k ukládání dat a vytváření komunit. Jinak je uživatelská dokumentace k Catch-all datovému repozitáři (viz níže) platná i zde.</p>
 
 <h2>Užitečné odkazy</h2>
 <ul>
