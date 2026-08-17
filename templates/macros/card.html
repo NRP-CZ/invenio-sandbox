@@ -1,5 +1,5 @@
 {# Macro for rendering a card with icon, header, description, and button #}
-{% macro render_card(header, description, icon, url, button_text) %}
+{% macro render_card(header, description, icon, url, button_text, new_tab=False) %}
 <div class="ui card shadowless">
   <div class="content">
     <h3 class="header">{{ header }}</h3>
@@ -12,6 +12,7 @@
     <a
       class="ui button right labeled icon bordered"
       href="{{ url }}"
+      {% if new_tab %}target="_blank"{% endif %}
     >
       {{ button_text }}
       <i class="angle right icon"></i>
