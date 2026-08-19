@@ -12,11 +12,17 @@
 
 <h2>Základní pravidla užívání</h2>
 <ul>
-<li>Prostřednictvím e-INFRA se může zaregistrovat kdokoli a jeho registrace je automaticky schválena s možností ukládání dat (v repozitáři Catch-all musí uživatelé požádat o povolení k ukládání dat a čekat na schválení).</li>
-<li>Komunitu může vytvořit jakýkoli uživatel.</li>
-<li>Repozitář má dvě demo komunity, kde si uživatelé mohou vyzkoušet standardní pracovní postupy ukládání.</li>
+<li>Prostřednictvím e-INFRA se může zaregistrovat kdokoli a jeho registrace je automaticky schválena s možností ukládání dat.</li>
+<li>Repozitář má několik demo komunit, kde si uživatelé mohou vyzkoušet standardní pracovní postupy ukládání.</li>
 <li>Repozitář přiřazuje pouze testovací DOI, které nelze vyřešit.</li>
 <li>Data jsou pravidelně mazána.</li>
+<li>Limity pro uživatele jsou nastaveny na následující hodnoty:
+  <ul>
+    <li>Maximální počet souborů pro záznam: 20</li>
+    <li>Maximální velikost souboru pro uživatele: 10 GB</li>
+    <li>Maximální velikost souboru pro nahrání: 100 MB</li>
+  </ul>
+</li>
 </ul>
 
 <h2>Technická poznámka</h2>

@@ -73,7 +73,9 @@
         header=_('Upload dataset'),
         description=_('Try uploading a test dataset to the sandbox environment.'),
         icon='upload',
+        <!-- TODO: redirect to static get access page for users that are not e-infra eligible -->
         url=url_for('datasets_ui.deposit_create'),
+        <!-- url=url_for('datasets_ui.deposit_create') if can_view_deposit_page() else 'https://docs.nrp.eosc.cz/en/docs/end_users/catch-all-data-repository/catch-all-getting-started#registering-as-a-depositor-for-the-repository', -->
         button_text=_('Upload dataset')
       ) }}
 
