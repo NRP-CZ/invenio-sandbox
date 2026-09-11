@@ -524,7 +524,7 @@ dl.details-list {
   }
 
   .hero-logo {
-    width: 95px;
+    width: 200px;
     height: 115px;
     margin: 0 auto 1rem;
   }
@@ -586,4 +586,8 @@ dl.details-list {
 // for apps (when being generated).
 .inline-id-icon {
   display: inline-block;
+}
+
+.static-page {
+  padding: 2rem 3rem;
 }

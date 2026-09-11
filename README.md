@@ -1,4 +1,11 @@
-# CESNET Data Repository
+# CESNET Invenio Sandbox
+
+Welcome to CESNET Invenio v14 demonstration instance.  ⚠️ Data might be periodically deleted and recreated and does not get a real DOI. ⚠️
+
+- Learn more about CESNET Invenio at [https://nrp-cz.github.io/docs/](https://nrp-cz.github.io/docs/)
+- Instructions on running a local instance: https://nrp-cz.github.io/docs/installation/run_instance
+- Request your own repository instance in NRP: https://www.eosc.cz/en/services/data-storage/repositories-in-nrp
+- Preserve your data in a real repository: https://datarepo.eosc.cz/
 
 ## Repository layout
 
@@ -204,3 +211,5 @@ the page to the flask application.
 
 If you run the command with `--react` option, it will also create
 react endpoint for the page and reference it from the jinjax template.
+
+

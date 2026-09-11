@@ -4,13 +4,13 @@ javascript_package_manager = pnpm
 python_package_manager = uv
 
 [cookiecutter]
-project_name = CESNET Data Repository
-project_shortname = datarepo
-package_name = datarepo
-project_site = datarepo.com
+project_name = CESNET Invenio Sandbox
+project_shortname = cesnet-invenio-sandbox
+package_name = cesnet-invenio-sandbox
+project_site = invenio-sandbox.eosc.cz
 author_name = 
 author_email = 
-year = 
+year = 2026
 database = postgresql
 search = opensearch2
 file_storage = S3
