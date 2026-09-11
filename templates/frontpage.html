@@ -20,7 +20,7 @@
     <div class="hero-center">
       <img
         src="{{ url_for('static', filename='images/sandbox_logo_no_name.svg') }}"
-        alt="Sand castle"
+        alt="CESNET Invenio Sandbox Logo"
         class="hero-logo"
       />
       <h1 class="ui header font-weight-semibold mb-0">{{ _('CESNET Invenio Sandbox') }}</h1> 
@@ -73,10 +73,8 @@
         header=_('Upload dataset'),
         description=_('Try uploading a test dataset to the sandbox environment.'),
         icon='upload',
-        <!-- TODO: redirect to static get access page for users that are not e-infra eligible -->
         url=url_for('datasets_ui.deposit_create'),
-        <!-- url=url_for('datasets_ui.deposit_create') if can_view_deposit_page() else 'https://docs.nrp.eosc.cz/en/docs/end_users/catch-all-data-repository/catch-all-getting-started#registering-as-a-depositor-for-the-repository', -->
-        button_text=_('Upload dataset')
+        button_text=_('Upload dataset') if can_view_deposit_page() else _('Get access')
       ) }}
 
       {# Card 2: Learn about data management #}
